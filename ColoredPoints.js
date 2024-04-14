@@ -172,8 +172,6 @@ function convertCoordinatesEventToGL(ev){
     x = ((x - rect.left) - canvas.width/2)/(canvas.width/2);
     y = (canvas.height/2 - (y - rect.top))/(canvas.height/2);
 
-    console.log([x,y]);
-
     return([x,y]);
 }
 
